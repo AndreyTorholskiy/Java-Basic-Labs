@@ -28,7 +28,7 @@ public class Run {
 
         Faculty faculty = new FacultyCreator().create("Faculty of Engineering", facultyHead, List.of(department));
 
-        University university = new UniversityCreator().create("NTU Politech university", universityHead, List.of(faculty));
+        University university = new UniversityCreator().create("NTU Politechic university", universityHead, List.of(faculty));
 
         System.out.println(university);
     }
